@@ -29,12 +29,12 @@ env:
   DEVICE: openwrt-bcm27xx-bcm2710-rpi-3
   DIY_SH: scripts/lean-openwrt.sh
   SSH_ACTIONS: false
-  KMODS_IN_FIRMWARE: true
+#  KMODS_IN_FIRMWARE: true
   UPLOAD_EXT4_IMAGES: true
   UPLOAD_SQUASHFS_IMAGES: true
-  UPLOAD_ROOTFS: true
-  UPLOAD_WETRANSFER: true
-  UPLOAD_COWTRANSFER: true
+#  UPLOAD_ROOTFS: true
+#  UPLOAD_WETRANSFER: true
+#  UPLOAD_COWTRANSFER: true
   TZ: Asia/Shanghai
 
 jobs:
